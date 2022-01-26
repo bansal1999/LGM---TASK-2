@@ -3,7 +3,7 @@ import SearchBox from '../components/SearchBox';
 import CardList from '../components/CardList';
 import Scroll from '../components/Scroll';
 import Navbar from '../components/Navigation/Navigation';
-import Loader from './loader';
+// import Loader from './loader';
 
 class App extends Component{
 
@@ -67,7 +67,7 @@ class App extends Component{
                 <>
                 <Navbar onButtonSubmit={this.onButtonSubmit}/>
                 <h1 className='tc'>Loading...</h1>
-                <Loader className='loader'></Loader>
+                {/* <Loader className='loader'></Loader> */}
                 </>
             );
         }
